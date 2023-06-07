@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8080')
+const socket = io('http://localhost:3000')
 const messageContainer = document.getElementById('message-container')   // maakt een constante aan voor de message container (de grote chatbox)
 const messageForm = document.getElementById('send-container')           // maakt een constante aan voor de kleine text form waar je de text in typt en de knop in staat
 const messageInput = document.getElementById('message-input')           //stopt de getypte letters in de variable messageInput
